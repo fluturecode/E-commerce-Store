@@ -15,9 +15,11 @@ const ProductList = () => {
           <div className='container'>
             <Title name='our' title='products' />
             <div className='row'>
-              {products.map(product => {
+              <ProductConsumer>
+                {products.map(product => {
                 return <Product key={product.id} product={product} />;
-            })}
+                })}
+              </ProductConsumer>
             </div>
           </div>
        </ProductWrapper>
