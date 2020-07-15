@@ -2,16 +2,6 @@ import React, { useState } from "react";
 
 const CartItem = () => {
 
-  const [id, setId] = useState("");
-  const [title, setTitle] = useState("");
-  const [img, setImg] = useState("");
-  const [price, setPrice] = useState("");
-  const [total, setTotal] = useState(0);
-  const [count, setCount] = useState(0);
-  const [increment, setIncrement] = useState(0);
-  const [decrement, setDecrement] = useState(0);
-  const [removeItem, setRemoveItem] = useState(false);
-
   return (
     <div className="row my-1 text-capitalize text-center">
     <div className="col-10 mx-auto col-lg-2">
