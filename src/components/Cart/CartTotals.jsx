@@ -13,7 +13,7 @@ export default class CartTotals extends Component {
     const { history } = this.props;
     const emptyCart = cart.length === 0 ? true : false;
     return (
-      <React.Fragment>
+      <>
         {!emptyCart && (
           <div className="container">
             <div className="row">
@@ -50,7 +50,7 @@ export default class CartTotals extends Component {
             </div>
           </div>
         )}
-      </React.Fragment>
+      </>
     );
   }
 }

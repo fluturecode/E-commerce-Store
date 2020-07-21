@@ -1,33 +1,3 @@
-// import React, {useState, createContext } from 'react';
-// import { storeProducts, detailProduct } from './data';
-// const ProductContext = createContext();
-
-// const ProductProvider = () => {
-
-//   const [products, setProducts] = useState([]);
-
-//   const setNewProducts = () => {
-//     let products = [];
-//     storeProducts.forEach(item => {
-//       const singleItem = { ...item };
-//       products = [...products, singleItem];
-//     });
-//   }
-//   setNewProducts(products);
-
-//   useEffect( () => {
-//     setProducts();
-//   }, []);
-
-//   return (
-//     <ProductContext.Provider />
-//   );
-// };
-
-// const ProductConsumer = ProductContext.Consumer;
-
-// export default { ProductProvider, ProductConsumer };
-
 import React, { Component } from "react";
 import { storeProducts, detailProduct } from "./data";
 const ProductContext = React.createContext();
@@ -216,4 +186,4 @@ class ProductProvider extends Component {
 
 const ProductConsumer = ProductContext.Consumer;
 
-export { ProductProvider, ProductConsumer, ProductContext };
+export { ProductProvider, ProductConsumer };
