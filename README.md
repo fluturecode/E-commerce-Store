@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### e-Commerce Cell Phone Store
 
-In the project directory, you can run:
+This e-commerce store inlcudes PayPal Shopping cart.
 
 ### `yarn start`
 
